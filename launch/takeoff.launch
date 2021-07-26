@@ -1,0 +1,8 @@
+<launch>
+    <group>
+        <node pkg="swarm_main" type="takeoff.py" name="takeoff2" output="screen" ns="/drone2">
+            <param name="namespace" value="/drone2"/>
+            <param name="use_sim_time"  value="true" />
+        </node>
+    </group>
+</launch>
