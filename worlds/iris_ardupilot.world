@@ -121,10 +121,10 @@ LOITER> mode LAND
       </link>
     </model>
 
-    <model name="iris">
+    <model name="drone1">
       <pose> 0 0 0 0 0 0 </pose>
       <include>
-        <uri>model://iris_with_lidar</uri>
+        <uri>model://drone1</uri>
          <pose> 0 0 0 0 0 0 </pose>
       </include>
     </model>
